@@ -1,0 +1,39 @@
+npx create-expo-app mobile
+npm run start
+
+npm i nativewind
+npm i tailwindcss -D
+
+npx tailwindcss init
+
+substituir content do tailwind.config.js
+
+adicionar no arquivo babel
+plugins:['nativewind/babel']
+
+adicionar no tsconfig.json
+"compilerOptions": {
+    "types": [
+      "nativewind/types"
+    ]
+  }
+
+  npm i eslint @rocketseat/eslint-config -D
+
+criar arquivo 
+eslintrc.json
+{
+    "extends": [
+        "@rocketseat/eslint-config/react"
+    ]
+}
+
+npm i prettier-plugin-tailwindcss -D
+
+criar arquivo
+prettier.config.js
+module.exports = {
+    plugins: [require('prettier-plugin-tailwindcss')]
+}
+
+
