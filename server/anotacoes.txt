@@ -1,0 +1,37 @@
+/// Extenções
+
+eslint
+Fluent Icons
+GitLens
+Omni Theme
+PostCSS Language Support
+Prisma
+Symbols
+Tailwind CSS IntelliSense
+
+Ctrl + shift + P (VScode)
+
+
+/// iniciando o server
+
+npm init -y
+
+npm i typescript -D
+npm i @types/node -D
+npx tsc --init
+npm i tsx -D
+npx tsx src/server.ts
+
+"scripts": {
+    "dev": "tsx src/server.ts"
+},
+
+npm i fastify
+
+npm i prisma -D
+
+npx prisma init --datasource-provider SQLite
+
+npx prisma studio
+
+npm i @prisma/client
