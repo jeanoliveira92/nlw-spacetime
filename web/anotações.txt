@@ -1,0 +1,11 @@
+npx create-next-app@latest web --use-npm
+
+npm run dev
+
+npm i @rocketseat/eslint-config -D
+
+.eslintrc.json
+
+npm i prettier-plugin-tailwindcss -D
+
+criar arquivo prettier.config.js
